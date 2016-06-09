@@ -2,7 +2,7 @@ import test = require('blue-tape');
 
 import nodeStatic = require('node-static');
 
-test('sails exists', (t) => {
+test('node-static exists', (t) => {
   t.plan(3);
   t.notEqual(nodeStatic, undefined);
   let Server = nodeStatic.Server;
